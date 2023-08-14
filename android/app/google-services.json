@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "239404868624",
+    "project_id": "ubereatsclone-390511",
+    "storage_bucket": "ubereatsclone-390511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239404868624:android:270da2536c437cdf805695",
+        "android_client_info": {
+          "package_name": "com.nikhilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239404868624-vedpb9d0i466igvbka8kdpv9s7148hpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nikhilapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "239404868624-6jllj68vr1qtt6cespe453no94dvbthk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Pnnx1ziE2WUZzHeHo7WekEX66rCRigw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239404868624-6jllj68vr1qtt6cespe453no94dvbthk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
