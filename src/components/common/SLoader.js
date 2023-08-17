@@ -18,7 +18,7 @@ export default SLoader;
 const styles = StyleSheet.create({
   container: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    backgroundColor: '#ededed',
     justifyContent: 'center',
     alignItems: 'center',
   },

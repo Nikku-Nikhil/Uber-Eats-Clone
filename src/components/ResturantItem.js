@@ -58,16 +58,19 @@ const ResturantInfo = ({name, rating, time}) => (
 
 const ResturantItem = ({item}) => {
   const {
-    resturant_id,
-    resturantName,
-    delivery_time,
+    id,
+    name,
+    distance,
     rating,
-    image
+    image_url
   } = item;
+  let result = distance / 30;
+  let roundedResult = Math.floor(result).toString();
+  console.log(roundedResult);
   return (
     <TouchableOpacity style={styles.container} activeOpacity={0.8}>
-      <ResturantImage image={image} />
-      <ResturantInfo name={resturantName} rating={rating} time={delivery_time}/>
+      <ResturantImage image={image_url} />
+      <ResturantInfo name={name} rating={rating} time={roundedResult}/>
     </TouchableOpacity>
   );
 };
