@@ -66,7 +66,7 @@ const ResturantItem = ({item}) => {
   } = item;
   let result = distance / 30;
   let roundedResult = Math.floor(result).toString();
-  console.log(roundedResult);
+
   return (
     <TouchableOpacity style={styles.container} activeOpacity={0.8}>
       <ResturantImage image={image_url} />

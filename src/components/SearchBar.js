@@ -13,10 +13,6 @@ const SearchBar = ({
   onPress,
 }) => {
  
-
-  
-
-
   return (
     <View
     style={{
